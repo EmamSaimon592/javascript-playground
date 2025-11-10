@@ -1,0 +1,2 @@
+The Conditional (Ternary) Operator:
+let text = (age < 18) ? "Minor" : "Adult";
