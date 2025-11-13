@@ -74,3 +74,11 @@ setTimeout(() => {
 }, timeout);
 
 ```
+
+# promise
+
+const x = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    
+  }, timeout);
+});
