@@ -46,3 +46,31 @@ for (const key in person) {
 }
 
 ```
+
+# Callback Function Syntax
+```
+function mainFunction(callback) {
+  // মূল কাজ
+  console.log("Main function is running...");
+
+  // callback ফাংশন কল করা হচ্ছে
+  callback();
+}
+
+// এখন callback হিসেবে একটা function পাঠানো হবে:
+
+function myCallback() {
+  console.log("Callback function executed!");
+}
+
+// callback পাঠানো হলো
+mainFunction(myCallback);
+
+```
+# setTimeout
+```
+setTimeout(() => {
+  
+}, timeout);
+
+```
